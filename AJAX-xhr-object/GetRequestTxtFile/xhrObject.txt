@@ -1,0 +1,2 @@
+"This is xhr object tutorial"
+"Get request using xhr object - text display"
