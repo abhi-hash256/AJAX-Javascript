@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XHR object txt document</title>
+    <style>
+      .data-div {
+        background: #fff;
+        width: 80%;
+        margin: auto;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        padding: 12px;
+        text-align: center;
+        box-shadow: 4px 8px 15px 0 rgba(0, 0, 0, 0.14);
+
+        #click-cta {
+          background: #000;
+          color: #fff;
+          border-radius: 12px;
+          padding: 12px;
+          border: none;
+          width: 180px;
+          cursor: pointer;
+        }
+
+        .data-child-div {
+          display: none;
+          background: #ccc;
+          width: 50%;
+          padding: 12px;
+          margin: 18px auto;
+          border-radius: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="data-div">
+        <h4>AJAX data fetch using text (GET)</h4>
+        <button id="click-cta">Click to fetch data</button>
+        <p class="clicked-text"></p>
+        <div class="data-child-div"></div>
+      </div>
+    </div>
+  </body>
+  <script src="xhrObjectTxt.js"></script>
+</html>
